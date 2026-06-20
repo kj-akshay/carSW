@@ -1,10 +1,10 @@
-19:49:49 **** Incremental Build of configuration Debug for project carSW ****
+20:44:47 **** Incremental Build of configuration Debug for project carSW ****
 make -j4 all 
 arm-none-eabi-size  carSW.elf 
    text	   data	    bss	    dec	    hex	filename
-  19012	     96	  20888	  39996	   9c3c	carSW.elf
+  22164	     96	  20960	  43220	   a8d4	carSW.elf
 Finished building: default.size.stdout
  
 
-19:49:50 Build Finished. 0 errors, 0 warnings. (took 665ms)
+20:44:48 Build Finished. 0 errors, 0 warnings. (took 1s.259ms)
 

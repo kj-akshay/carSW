@@ -309,7 +309,6 @@ void StartDefaultTask(void *argument)
     __HAL_TIM_SET_COMPARE(&htim2,TIM_CHANNEL_1,750);
     vTaskDelay(pdMS_TO_TICKS(3000));
     __HAL_TIM_SET_COMPARE(&htim2,TIM_CHANNEL_1,1000);
-    vTaskDelay(pdMS_TO_TICKS(3000));
 
 
 
