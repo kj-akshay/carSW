@@ -1,0 +1,16 @@
+doc.txt
+ Created on: Jun 20, 2026
+     Author: aksha
+Motor Direction Logic
+IN1	IN2	Result
+1	0	Forward
+0	1	Reverse
+0	0	Coast/Stop
+1	1	Brake
+
+
+
+STM32 Pin	Function
+PA0	TIM2_CH1 PWM
+PA1	Direction
+GND	Common Ground
